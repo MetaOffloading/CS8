@@ -27,7 +27,7 @@ public class IOtask1InitialiseTrial {
 		block.targetCircles[block.defaultExit] = -1;
 		
 		//start setting up instructions
-		String instructions = "Please drag the numbers in order to the bottom of the box<br>"
+		String instructions = "Faites glisser les chiffres dans l'ordre au bas de la boîte<br>"
 				+ "(1, 2, 3, 4, etc.)<br><br>";
 		
 		//start setting up possible target sides (LEFT, RIGHT, etc.)
@@ -76,7 +76,7 @@ public class IOtask1InitialiseTrial {
 			}
 			
 			//add additional instructions for targets
-			instructions = instructions + "BUT:<br><br>";
+			instructions = instructions + "MAIS:<br><br>";
 			
 			for (int i = 0; i < nTargets; i++) {
 				int exitSide = possibleTargetSides.get(0);
@@ -86,16 +86,16 @@ public class IOtask1InitialiseTrial {
 				
 				switch (exitSide) {
 				case 1:
-					exitText="LEFT";
+					exitText="la GAUCHE";
 					break;
 				case 2:
-					exitText="RIGHT";
+					exitText="la DROITE";
 					break;
 				case 3:
-					exitText="TOP";
+					exitText="le EN HAUT";
 					break;
 				case 4:
-					exitText="BOTTOM";
+					exitText="EN BAS";
 				    break;
 				}
 				
@@ -105,8 +105,8 @@ public class IOtask1InitialiseTrial {
 				block.targetCircles[exitSide] = targetSeqPosition;
 				block.notYetOffloaded.add(targetSeqPosition);
 				
-				instructions = instructions + "Please drag " + (targetSeqPosition+1) + " to the ";
-				instructions = instructions + exitText + " instead.<br>";
+				instructions = instructions + "S'il vous plaît, faites glisser " + (targetSeqPosition+1) + " vers ";
+				instructions = instructions + exitText + " à la place.<br>";
 			}
 		}
 		
@@ -116,6 +116,6 @@ public class IOtask1InitialiseTrial {
 		//save the block context
 		IOtask1BlockContext.setContext(block);
 		
-		ClickPage.Run(instructions,  "Continue");
+		ClickPage.Run(instructions,  "Continuez");
 	}
 }

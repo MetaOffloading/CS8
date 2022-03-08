@@ -47,7 +47,7 @@ public class Finish {
 				}
 			});
 		} else if (SessionInfo.experimentType == Names.EXPERIMENT_STANDALONE) {
-			final HTML goodbyeText = new HTML("You have now completed the experiment. Thank you for taking part");
+			final HTML goodbyeText = new HTML("Vous avez maintenant terminé l'expérience. Merci de votre participation");
 			RootPanel.get().add(goodbyeText);
 		}
 	}

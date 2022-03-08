@@ -9,75 +9,75 @@ public class Instructions {
 
 		switch (index) {
 		case 0:
-			i = "In this experiment you will have a simple task to do.<br><br>"
-					+ "You will see several yellow circles inside a box. Inside each circle will be a number. <br><br>"
-					+ "You can move them around with your finger. Your task is to drag them to the bottom of the box in sequence.<br><br>"
-					+ " Please start by dragging 1 all the way to the bottom. This will make it disappear. <br><br>"
-					+ "Then drag 2 to the bottom, then 3, and so on.";
+			i = "Dans cette expérience, vous aurez une tâche simple à accomplir.<br><br>"
+					+ "Vous verrez plusieurs cercles jaunes à l'intérieur d'une boîte. Dans chaque cercle, il y aura un chiffre. <br><br>"
+					+ "Vous pouvez les déplacer avec votre doigt. Votre tâche consiste à les faire glisser du plus petit au plus grand vers le bas de la boîte.<br><br>"
+					+ "Veuillez commencer par faire glisser le 1 jusqu'en bas. Cela le fera disparaître.<br><br>"
+					+ "Ensuite, faites glisser le 2 vers le bas, puis le 3, et ainsi de suite.";
 			break;
 
 		case 1:
-			i="Now you will continue the task with more circles on the screen. ";
+			i="Maintenant, vous allez continuer la tâche avec d'autres cercles sur l'écran.";
 			break;
 			
 		case 2:
-			i="Now you will continue the same task, but sometimes there will be something else to do. <br><br>"
-					+ "As well as dragging each circle in turn to the "
-					+ "bottom of the screen, you will be instructed to drag one or more "
-					+ "of the circles to another part of the box. For instance, you might be told that you should drag number 5 "
-					+ "to the left of the box instead of the bottom.<br><br>"
-					+ "You will still be able to drag any circle to the bottom of the box, but you should try to "
-					+ "remember to drag these special circles to the instructed location. ";
+			i="Maintenant, vous allez continuer la même tâche, mais parfois il y aura autre chose à faire. <br><br>"
+					+ "De même qu'il faut faire glisser chaque cercle un par un "
+					+ "vers le bas de l'écran, il vous sera demandé de faire glisser un ou plusieurs "
+					+ "cercles vers une autre partie de la boîte. Par exemple, on peut vous dire que vous devez faire glisser le numéro 5 "
+					+ "vers la gauche de la boîte plutôt que vers le bas.<br><br>"
+					+ "Vous pourrez toujours faire glisser n'importe quel cercle vers le bas de la boîte, mais vous devrez essayer de "
+					+ "vous rappeler de faire glisser ces cercles spéciaux à l'endroit indiqué.";
 			break;
 
 		case 3:
-			i="Now you will do the task again, but this time there will be three special circles to remember.";
+			i="Maintenant, vous allez refaire la tâche, mais cette fois, il y aura trois cercles spéciaux à retenir.";
 			break;
 			
 		case 4:
-			i="Now you will continue with the same task, but sometimes you will be interrupted by "
-					+"an arithmetic question. You will need to answer the question in order to continue the other task.";
+			i="Maintenant vous allez continuer avec la même tâche, mais parfois vous serez interrompus par "
+					+"une question d'arithmétique. Vous devrez répondre à la question afin de pouvoir continuer l'autre tâche.";
 			break;
 			
 		case 5:
-			i="Some people find it helpful to drag "
-					+ "the special circles near to the edge of the box to help them remember.<br><br> "
-					+ "For example, if you had to remember to drag 5 to the left of the box, "
-					+ "you could drag it near to there at the beginning, before you drag the 1. "
-					+ "Then when you eventually got to 5, its location would remind you "
-					+ "what to do. You should feel free to use this strategy if you like, but "
-					+ "it's up to you.<br><br> "
-					+ "Click below to continue.";
+			i="Certaines personnes trouvent que cela aide de glisser "
+					+ "les cercles spéciaux près du bord de la boîte pour les aider à se souvenir.<br><br>"
+					+ "Par exemple, si vous deviez vous rappeler de faire glisser 5 vers la gauche de la boîte, "
+					+ "vous pourriez le faire glisser près de la gauche au début, avant de faire glisser le 1. "
+					+ "Ensuite, quand vous arriverez à 5, son emplacement vous rappellera "
+					+ "ce qu'il faut faire. Vous pouvez utiliser cette stratégie si vous le souhaitez, mais "
+					+ "c'est à vous de choisir.<br><br> "
+					+ "Cliquez en dessous pour continuer.";
 			break;
 			
 		case 6:
-			i = "Now the experiment will start for real.<br><br> "
-					+ "You can choose whether to use the strategy of placing the special circles "
-					+ "at the edge of the box as reminders or just use your own memory without setting any reminders.<br><br>"
-					+ "You should feel free to do the task however you prefer. It's completely up to you.<br><br> "
-					+ "Please click below to continue. ";
+			i = "Maintenant, l'expérience va commencer réellement.<br><br> "
+					+ "Vous pouvez choisir d'utiliser la stratégie consistant à placer les cercles spéciaux "
+					+ "au bord de la boîte comme rappels ou simplement utiliser votre propre mémoire sans fixer de rappels.<br><br>"
+					+ "Vous devez vous sentir libre d'effectuer la tâche comme vous le souhaitez. C'est vous qui décidez.<br><br> "
+					+ "Veuillez cliquer en dessous pour continuer.";
 			break;
 			
 		case 7:
-			i = "Now the experiment will start for real.<br><br> "
-					+ "For this part of the experiment, you will have to use your own memory to do the task. "
-					+ "You will not be able to place the special circles at the edge of the box as reminders. "
-					+ "Just use your own memory and try your best.<br><br> "
-					+ "Please click below to continue. ";
+			i = "Maintenant, l'expérience va commencer réellement.<br><br>"
+					+ "Pour cette partie de l'expérience, vous devrez utiliser votre mémoire pour effectuer la tâche. "
+					+ "Vous ne pourrez pas placer les cercles spéciaux au bord de la boîte comme rappels. "
+					+ "Utilisez votre mémoire et faites de votre mieux.<br><br> "
+					+ "Veuillez cliquer en dessous pour continuer.";
 			break;
 			
 		case 8:
-			i = "From this point onwards you will not be able to place special circles at the edge of the box as reminders.<br><br>"
-					+ "Just use your own memory and try your best.<br><br> "
-					+ "Please click below to continue. ";
+			i = "A partir de ce moment, vous ne pourrez plus placer de cercles spéciaux au bord de la boîte comme rappels.<br><br>"
+					+ "Utilisez votre mémoire et faites de votre mieux.<br><br> "
+					+ "Veuillez cliquer en dessous pour continuer.";
 			break;
 			
 		case 9:
-			i="For the rest of the experiment, it will be up to you whether to set reminders or not. That is, "
-					+ "you can choose whether to use the strategy of placing the special circles "
-					+ "at the edge of the box as reminders or just use your own memory without setting any reminders.<br><br>"
-					+ "You should feel free to do the task however you prefer. It's completely up to you.<br><br> "
-					+ "Please click below to continue. ";
+			i="Pour le reste de l'expérience, il vous est possible de choisir d'utiliser des rappels ou non. C'est-à-dire que "
+					+ "vous pouvez choisir d'utiliser la stratégie consistant à placer les cercles spéciaux "
+					+ "au bord de la boîte comme rappels ou utilisez simplement votre propre mémoire sans définir de rappels.<br><br>"
+					+ "Vous devez vous sentir libre d'effectuer la tâche comme vous le souhaitez. C'est vous qui décidez.<br><br>"
+					+ "Veuillez cliquer en dessous pour continuer.";
 			break;
 			
 		case 10:

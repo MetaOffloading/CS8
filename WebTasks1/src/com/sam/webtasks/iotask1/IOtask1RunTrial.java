@@ -320,8 +320,8 @@ public class IOtask1RunTrial {
 						} else {
 							// first time someone tries to remove a circle without offloading, give a pop-up
 							// window alert
-							Window.alert("You need to set reminders before you can continue. You can "
-									+ "do this by moving the position of special circles.");
+							Window.alert("Vous devez définir des rappels avant de pouvoir continuer. Vous pouvez "
+									+ "le faire en déplaçant la position des cercles spéciaux.");
 
 						}
 					}
@@ -392,7 +392,7 @@ public class IOtask1RunTrial {
 								Date questionAsked = new Date();
 
 								while ((r < 0) | (r > 10)) {// accept any response between 1 and 9
-									response = Window.prompt("What is " + sum + "?", "");
+									response = Window.prompt("Combien font " + sum + "?", "");
 
 									try {
 										r = Integer.parseInt(response);
