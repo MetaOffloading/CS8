@@ -86,13 +86,13 @@ public class IOtask1InitialiseTrial {
 				
 				switch (exitSide) {
 				case 1:
-					exitText="la GAUCHE";
+					exitText="LA GAUCHE";
 					break;
 				case 2:
-					exitText="la DROITE";
+					exitText="LA DROITE";
 					break;
 				case 3:
-					exitText="le EN HAUT";
+					exitText="LE HAUT";
 					break;
 				case 4:
 					exitText="EN BAS";
@@ -106,7 +106,7 @@ public class IOtask1InitialiseTrial {
 				block.notYetOffloaded.add(targetSeqPosition);
 				
 				instructions = instructions + "S'il vous plaît, faites glisser " + (targetSeqPosition+1) + " vers ";
-				instructions = instructions + exitText + " à la place.<br>";
+				instructions = instructions + exitText + ".<br>";
 			}
 		}
 		

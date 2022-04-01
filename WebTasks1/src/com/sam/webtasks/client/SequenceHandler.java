@@ -431,6 +431,10 @@ public class SequenceHandler {
 				IOtask1RunTrial.Run();
 				break;
 			case 4:
+				// log end of trial
+				PHP.logData("trialEnd",  IOtask1BlockContext.getContext().blockNum + ", " + IOtask1BlockContext.getContext().currentTrial, true);
+				break; 
+			case 5:
 				// we have reached the end, so we need to restart the loop
 				SequenceHandler.SetLoop(2, true);
 				SequenceHandler.Next();

@@ -7,9 +7,12 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.HTML;
+import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.RadioButton;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.VerticalPanel;
 import com.sam.webtasks.client.SequenceHandler;
 import com.sam.webtasks.client.SessionInfo;
 
@@ -88,11 +91,22 @@ public class Initialise {
 			HTML participantHTML = new HTML("Experiment: " + SessionInfo.experimentCode + ", Version: " + SessionInfo.experimentVersion + 
 					"<br>Participant code:");
 			final TextBox textBox = new TextBox();
+			final RadioButton radio0 = new RadioButton("radio", "counterbalance 0");
+			final RadioButton radio1 = new RadioButton("radio", "counterbalance 1");
+			
+			final VerticalPanel vPanel = new VerticalPanel();
+			
 			Button continueButton = new Button("Continue");
 			
-			RootPanel.get().add(participantHTML);
-			RootPanel.get().add(textBox);
-			RootPanel.get().add(continueButton);
+			radio0.setValue(true);
+			
+			vPanel.add(participantHTML);
+			vPanel.add(textBox);
+			vPanel.add(radio0);
+			vPanel.add(radio1);
+			vPanel.add(continueButton);
+			
+			RootPanel.get().add(vPanel);
 			
 			continueButton.addClickHandler(new ClickHandler() {
 				public void onClick(ClickEvent event) {
@@ -145,7 +159,11 @@ public class Initialise {
 							}
 						}
 						
+						Counterbalance.setFactorLevel("conditionOrder", 0);
 						
+						if (radio1.getValue()) {
+							Counterbalance.setFactorLevel("conditionOrder", 1);
+						}
 						
 						SequenceHandler.Next();
 					}

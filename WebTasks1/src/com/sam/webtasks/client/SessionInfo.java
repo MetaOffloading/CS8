@@ -13,10 +13,10 @@ public class SessionInfo {
 	public static int experimentType = Names.EXPERIMENT_STANDALONE;
 	
 	//what is the name for this experiment?
-	public static String experimentCode="Experiment10";
+	public static String experimentCode="AD1";
 	
 	//which version of the experiment is this?
-	public static int experimentVersion=3; 
+	public static int experimentVersion=2; 
 	
 	//what is the minimum permitted screen size in pixels?
 	//if the screen is smaller than this the participant will be asked
