@@ -285,15 +285,15 @@ public class SequenceHandler {
 				IOtask1Block block8 = new IOtask1Block();
 				block8.blockNum = 8;
 				block8.nTrials = 10;
-				block8.targetList.add(1);
 				block8.targetList.add(3);
-				block8.targetList.add(1);
 				block8.targetList.add(3);
-				block8.targetList.add(1);
 				block8.targetList.add(3);
-				block8.targetList.add(1);
 				block8.targetList.add(3);
-				block8.targetList.add(1);
+				block8.targetList.add(3);
+				block8.targetList.add(3);
+				block8.targetList.add(3);
+				block8.targetList.add(3);
+				block8.targetList.add(3);
 				block8.targetList.add(3);				
 				block8.askArithmetic = true;
 				if (Counterbalance.getFactorLevel("conditionOrder") == ExtraNames.OFFLOAD_SECOND) {
@@ -317,15 +317,15 @@ public class SequenceHandler {
 				IOtask1Block block9 = new IOtask1Block();
 				block9.blockNum = 9;
 				block9.nTrials = 10;
-				block9.targetList.add(1);
 				block9.targetList.add(3);
-				block9.targetList.add(1);
 				block9.targetList.add(3);
-				block9.targetList.add(1);
 				block9.targetList.add(3);
-				block9.targetList.add(1);
 				block9.targetList.add(3);
-				block9.targetList.add(1);
+				block9.targetList.add(3);
+				block9.targetList.add(3);
+				block9.targetList.add(3);
+				block9.targetList.add(3);
+				block9.targetList.add(3);
 				block9.targetList.add(3);
 				block9.askArithmetic = true;
 				if (Counterbalance.getFactorLevel("conditionOrder") == ExtraNames.OFFLOAD_SECOND) {
